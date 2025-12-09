@@ -1,11 +1,8 @@
-# traffic-light-arduino
-Arduino Traffic Light System using three LEDs (Red, Yellow, Green) with timed intervals: Red 30s, Green 15s, Yellow 5s.
 # 🚦 Arduino Traffic Light System
 
 This project simulates a traffic light using an Arduino UNO and three LEDs: Red, Yellow, and Green.  
 Each LED turns ON for a specific amount of time to represent a real traffic signal.
 
-       -------
 
 ## ⏱ Timing Sequence
 | Light  | Duration |
@@ -15,7 +12,7 @@ Each LED turns ON for a specific amount of time to represent a real traffic sign
 | 🟡 Yellow | 5 seconds |
 
 The cycle repeats continuously.
-      ---------
+
 ## 🔧 Hardware Required
 - Arduino UNO  
 - Breadboard  
@@ -25,7 +22,6 @@ The cycle repeats continuously.
 - 3 × 220Ω resistors  
 - Jumper wires  
 
-    --------
 
 ## 🔌 Pin Connections
 
@@ -36,15 +32,7 @@ The cycle repeats continuously.
 | Green   | D4          | 220Ω     | GND    |
 
 **Note:** Long leg (anode) → Arduino pin  
-Short leg (cathode) → resistor → GND
-
---------
-
-## 🖼️ Simulation Preview
-
-![Wokwi Arduino Traffic Light Simulation](./95530ce0-2117-438b-9380-650be170f5b9.png)
-
-        --------
+          Short leg (cathode) → resistor → GND
 
 ## ▶️ How to Run
 
@@ -59,7 +47,7 @@ Short leg (cathode) → resistor → GND
 2. Paste your Arduino code into `sketch.ino`  
 3. Add LEDs and resistors  
 4. Start the simulation  
-     ---------
+
 ## 🎯 Purpose
 This project is ideal for beginners learning:
 - Arduino digital output  
